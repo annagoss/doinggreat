@@ -1,0 +1,287 @@
+.LotaGrotesqueAlt2-Light { 
+	font-family: LotaGrotesqueAlt2-Light;
+	font-weight: normal;
+	font-style: normal;
+}
+.LotaGrotesqueAlt2-SemiBold { 
+	font-family: LotaGrotesqueAlt2-SemiBold;
+	font-weight: normal;
+	font-style: normal;
+}
+.LotaGrotesqueAlt1-Light { 
+	font-family: LotaGrotesqueAlt1-Light;
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*end reset*/
+
+body{
+	font: normal 16px/22px "LotaGrotesqueAlt1-Light", Georgia, serif;
+	color:#2e2e2e;
+	width: 100%;
+}
+
+p{
+	margin-bottom: 20px;
+}
+
+header{
+	margin-top: 180px;
+    font-size: 20px;
+}
+
+a,a:link,a:visited{
+	color: #E5745D;
+	text-decoration:none;
+    transition:all 0.2s ease;
+    border-bottom: 1px solid #E5745D;
+}
+
+.date {
+    font-family: "LotaGrotesqueAlt2-SemiBold";  
+    color: #280A85;
+    font-size: 16px;
+}
+
+a:hover{
+	text-decoration:none;
+    color:#FFC0B3;
+    border-bottom: 1px solid #FFC0B3;
+}
+
+
+h2{
+	font-family: "LotaGrotesqueAlt2-SemiBold";
+	margin-bottom: 20px;
+    font-size:30px;
+    line-height:48px;
+    color: #280A85;
+}
+
+
+
+h3{
+margin-bottom: 20px;
+font-size:20px;
+line-height:32px;   
+}
+
+h4{
+font-family: "LotaGrotesqueAlt2-SemiBold";
+margin-bottom: 10px;
+font-size:20px;
+line-height:24px;
+    color: #280A85;
+}
+
+.subtitles, .subtitle{
+	margin:0px auto;
+	width: 320px;
+	height: 24px;
+}
+
+.container{
+    width:80%;
+	max-width: 1160px;
+	margin:  0 auto;
+    margin-bottom: 100px;
+}
+
+.one-third{
+	width: 33%;
+	float: left;
+}
+
+.two-thirds{
+	width: 66%;
+	float: left;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+.left{
+    padding-right: 40px;
+}
+
+.right{
+    padding-left: 40px;
+}
+
+.bold{
+    font-family: "LotaGrotesqueAlt2-SemiBold";
+}
+
+.half{
+	width: 50%;
+	float: left;
+    box-sizing: border-box;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+.twocols{
+	margin: 40px auto;
+}
+
+
+article{
+	padding: 100px 12%;
+	min-height: 500px;
+}
+
+
+.headerbar{
+    background-color: #FFFBF9;
+    padding: 20px;  
+    text-align: center;
+    position: fixed;
+  top: 0;
+  width: 100%;
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.05);
+-moz-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.05);
+box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.05);
+}
+
+.header-link{
+    margin: 0 10px;
+}
+
+
+footer a, footer a:link, footer a:visited{
+	color:#280A85;
+	transition:all 0.2s ease;
+}
+
+footer a:hover{
+	color: #666;
+}
+
+footer{
+	margin: 100px auto;
+	color:#2e2e2e;
+}
+
+ul {
+    list-style-type: circle;
+    font-size: 16px;
+}
+
+li{
+    margin-bottom: 6px; 
+}
+
+@media only screen
+and (max-width : 640px){
+
+    body
+    {overflow-x: hidden;}
+
+.half, .one-third, .two-thirds{
+	width: 100%;
+	float: none;
+	margin-bottom: 20px;
+}
+    
+    .one-third, .two-thirds{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+.header-link{
+    display: block;
+    margin: 6px 0;
+    padding: 6px 0;
+    text-align: center;
+    }
+
+header{
+	margin-top: 40px;
+   
+}
+    
+.headerbar{
+padding: 20px 0;
+    position: relative;
+
+
+}
+ 
+    .container{margin-bottom: 40px;}
+    h2{line-height: 34px; text-align: center;}
+ 
+    .container {
+    width: 90%;
+    }
+    p{
+	font-size: 20px;
+        line-height: 24px;
+}
+        
+ ul {
+    padding: 10px 20px 0 20px;
+     font-size:20px;
+} 
+    
+    .left{padding-right: 0;}
+    
+}
+    
