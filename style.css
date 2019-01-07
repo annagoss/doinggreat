@@ -1,20 +1,20 @@
-.LotaGrotesqueAlt2-Light { 
+.LotaGrotesqueAlt2-Light {
 	font-family: LotaGrotesqueAlt2-Light;
 	font-weight: normal;
 	font-style: normal;
 }
-.LotaGrotesqueAlt2-SemiBold { 
+.LotaGrotesqueAlt2-SemiBold {
 	font-family: LotaGrotesqueAlt2-SemiBold;
 	font-weight: normal;
 	font-style: normal;
 }
-.LotaGrotesqueAlt1-Light { 
+.LotaGrotesqueAlt1-Light {
 	font-family: LotaGrotesqueAlt1-Light;
 	font-weight: normal;
 	font-style: normal;
 }
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -28,8 +28,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -40,7 +40,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -88,7 +88,7 @@ a,a:link,a:visited{
 }
 
 .date {
-    font-family: "LotaGrotesqueAlt2-SemiBold";  
+    font-family: "LotaGrotesqueAlt2-SemiBold";
     color: #280A85;
     font-size: 16px;
 }
@@ -113,9 +113,10 @@ h2{
 h3{
 margin-bottom: 20px;
 font-size:20px;
-line-height:32px;   
+line-height:32px;
 }
 
+h1,
 h4{
 font-family: "LotaGrotesqueAlt2-SemiBold";
 margin-bottom: 10px;
@@ -135,6 +136,12 @@ line-height:24px;
 	max-width: 1160px;
 	margin:  0 auto;
     margin-bottom: 100px;
+}
+
+.container-margin-bottom {
+
+    margin-bottom:50px;
+
 }
 
 .one-third{
@@ -170,11 +177,11 @@ img{
     box-sizing: border-box;
 }
 
-.clearfix:after { 
-   content: "."; 
-   visibility: hidden; 
-   display: block; 
-   height: 0; 
+.clearfix:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
    clear: both;
 }
 
@@ -191,7 +198,7 @@ article{
 
 .headerbar{
     background-color: #FFFBF9;
-    padding: 20px;  
+    padding: 20px;
     text-align: center;
     position: fixed;
   top: 0;
@@ -226,62 +233,95 @@ ul {
 }
 
 li{
-    margin-bottom: 6px; 
+    margin-bottom: 6px;
 }
 
-@media only screen
-and (max-width : 640px){
+@media only screen and (max-width : 640px) {
 
-    body
-    {overflow-x: hidden;}
+    body {
+        overflow-x: hidden;
+    }
 
-.half, .one-third, .two-thirds{
-	width: 100%;
-	float: none;
-	margin-bottom: 20px;
-}
-    
-    .one-third, .two-thirds{
+    .half,
+    .one-third,
+    .two-thirds{
+
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+
+    }
+
+    .one-third,
+    .two-thirds {
+
         padding-left: 0;
         padding-right: 0;
+
     }
 
-.header-link{
-    display: block;
-    margin: 6px 0;
-    padding: 6px 0;
-    text-align: center;
+    .header-link {
+
+        display: block;
+        margin: 6px 0;
+        padding: 6px 0;
+        text-align: center;
+
     }
 
-header{
-	margin-top: 40px;
-   
-}
-    
-.headerbar{
-padding: 20px 0;
-    position: relative;
+    header {
 
+       margin-top: 40px;
 
-}
- 
-    .container{margin-bottom: 40px;}
-    h2{line-height: 34px; text-align: center;}
- 
+    }
+
+    .headerbar {
+
+        padding: 20px 0;
+        position: relative;
+
+    }
+
     .container {
-    width: 90%;
+
+        margin-bottom: 40px;
+
     }
-    p{
-	font-size: 20px;
+
+    h2 {
+
+        line-height: 34px;
+        text-align: center;
+
+    }
+
+    .container {
+
+        width: 90%;
+
+    }
+
+    p {
+
+        font-size: 20px;
         line-height: 24px;
-}
-        
- ul {
-    padding: 10px 20px 0 20px;
-     font-size:20px;
-} 
-    
+
+    }
+
+    ul {
+
+        padding: 10px 20px 0 20px;
+        font-size:20px;
+
+    }
+
     .left{padding-right: 0;}
-    
+
+    .testimonal-mobile-margin {
+
+        margin-top:50px;
+
+    }
+
 }
-    
+
